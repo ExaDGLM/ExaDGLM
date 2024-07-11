@@ -1,0 +1,26 @@
+FROM nvcr.io/nvidia/nvhpc:24.1-devel-cuda12.3-ubuntu22.04
+
+RUN apt-get update -y && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+        time \
+        vim \
+        unzip \
+        python3-dev \
+        python3-pip \
+        xvfb libx11-dev libxrender-dev && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install --no-cache-dir \
+    numpy matplotlib scipy sympy pytest pybind11 \
+    jupyterlab==3.6.5 pyvista[all] imageio[ffmpeg]
+
+# Jupyterlab configuration
+RUN jupyter-lab --generate-config
+ENV JLAB_CONFIG="/root/.jupyter/jupyter_lab_config.py"
+RUN echo "" >> $JLAB_CONFIG && \
+    echo "c.ServerApp.allow_origin = '*'  # allow external access" >> $JLAB_CONFIG && \
+    echo "c.ServerApp.ip = '*'            # allow all IP address"  >> $JLAB_CONFIG && \
+    echo "c.ServerApp.open_browser = False"     >> $JLAB_CONFIG && \
+    echo "c.ServerApp.password_required = True" >> $JLAB_CONFIG && \
+    echo "c.ServerApp.allow_root = True"        >> $JLAB_CONFIG && \
+    echo "c.ServerApp.port = 8080"              >> $JLAB_CONFIG        # modify port number (ex. 8080)
