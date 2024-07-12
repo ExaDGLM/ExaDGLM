@@ -23,7 +23,7 @@ mpisize = npart = 3
 * Elapsed time can be checked once simulation executed by Run <br>
   (For partition version with multi core, number_cpu_cores can be modified) <br>
 ```
-CPU Core 64개 사용
+using 64 CPU Cores
 
 num_cpu_cores = 64
 ```
