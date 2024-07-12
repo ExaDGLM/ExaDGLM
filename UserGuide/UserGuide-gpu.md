@@ -3,7 +3,7 @@
 
 * User specification of 'DGLM_DIR, WORK_DIR' in set work directory <br>
 ```
-DGLM_DIR = "/NAS/home/parl/lab/DGLM/0.4.1-OpenSource"
+DGLM_DIR = "/home/user/0.4.1-OpenSource"
 WORK_DIR = "ex3.run.gpu.uniform.npart-3"
 ```
 
