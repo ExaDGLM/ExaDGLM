@@ -23,7 +23,7 @@ mpisize = npart = 3
   (For partition version, the number of GPUs can be selected accordeing to the number of partitions chosen in Initialize DGLM oject
   
 ```
-GPU 3개 사용
+using 3 GPUs
 
 mpisize = npart = 3
 ```
