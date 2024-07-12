@@ -29,7 +29,7 @@ Additionally, we plan to provide multi-node support to run simulation using more
 Softwares and pre-configurations
 
 > OS : Ubuntu 22.04 <br>
-> NVIDIA GPU Driver : 550.54.14 (525.60.13 이상) <br>
+> NVIDIA GPU Driver : 550.54.14 (525.60.13 or later) <br>
 > Docker container ( https://docs.docker.com/engine/install/ubuntu ) <br>
 > NVIDIA Container Toolkit ( https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html )
 
@@ -38,7 +38,7 @@ Softwares and pre-configurations
 ##### Installing
 Environment setups and installation procedures
 
-* Container build ([dockerfile](https://github.com/ExaDGLM/ExaDGLM/blob/master/UserGuide/dockerfile) 참고) <br>
+* Container build (cf. [dockerfile](https://github.com/ExaDGLM/ExaDGLM/blob/master/UserGuide/dockerfile)) <br>
 ```bash
 $ docker build --network host --no-cache --tag= container_image .
 ```
