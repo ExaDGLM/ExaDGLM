@@ -118,4 +118,4 @@ High Performance Computing Research Lab / Technology Research / SAMSUNG SDS <br>
 
 <br><br>
 ***
-Copyright (C) 2023 Samsung SDS Co., Ltd.
+Copyright (C) 2024 Samsung SDS Co., Ltd.
