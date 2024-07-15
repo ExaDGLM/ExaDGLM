@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Kim"
+  given-names: "Ki-Hwan"
+- family-names: "Shin"
+  given-names: "Jaemin"
+- family-names: "Choi"
+  given-names: "Jae-Young"
+- family-names: "Yoo"
+  given-names: "Jin"
+- family-names: "Moon"
+  given-names: "Kihyo"
+title: "ExaDGLM"
+version: 0.4.1
+date-released: 2024-07-12
+repository-code: "https://github.com/ExaDGLM/ExaDGLM"
+license: "Samsung SDS Public License"
+abstract: "ExaDGLM is a numerical simulator based on explicit/implicit Discontinuous Galerkin with Lagrange Multiplier, aimed at high-performance and high-scalability on GPU systems."
