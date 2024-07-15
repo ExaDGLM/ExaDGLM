@@ -110,10 +110,10 @@ SAMSUNG SDS Public License <br>
 High Performance Computing Research Lab / Technology Research / SAMSUNG SDS <br>
 (For project contribution, request, or feedback, please contact us via email) <br>
 > Ki-Hwan Kim ( kihwanwb.kim@samsung.com ) <br>
-> Jae-Min Shin ( jaemin8.shin@samsung.com )<br>
+> Jaemin Shin ( jaemin8.shin@samsung.com )<br>
 > Jae-Young Choi ( jyng.choi@samsung.com ) <br>
 > Jin Yoo ( ujin.yoo@samsung.com ) <br>
-> Ki-Hyo Moon ( kihyo.moon@samsung.com ) <br>
+> Kihyo Moon ( kihyo.moon@samsung.com ) <br>
 
 <br><br>
 ***
